@@ -15,7 +15,6 @@ public class IndexController {
     public  String test(Model model) {
 		System.out.println("进来controller");
 		model.addAttribute("time",new Date());
-		//返回的视图
         return "/index.jsp";
     }
 }
